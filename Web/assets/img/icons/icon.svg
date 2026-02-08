@@ -1,0 +1,9 @@
+<svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <path d="M30 60 L85 20 L85 110 L60 110 L60 65 L30 80 Z" fill="#F9D308"/>
+  <path d="M85 20 L140 60 L140 80 L110 65 L110 110 L85 110 Z" fill="#2D3A6E"/>
+  <path d="M85 20 L140 60 L110 65 L85 45 Z" fill="#F9D308"/>
+  
+  <text x="150" y="65" font-family="Arial, sans-serif" font-weight="bold" font-size="50" fill="white">MINERVA</text>
+  
+  <text x="150" y="95" font-family="Arial, sans-serif" font-size="20" letter-spacing="1" fill="#F9D308">SOLUCIONES INTEGRALES</text>
+</svg>
