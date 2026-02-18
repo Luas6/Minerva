@@ -54,7 +54,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm bg-gris py-3">
+        <nav class="navbar navbar-expand-sm bg-gris py-1">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/icons/icon.png" width="83" height="75" alt="MINERVA Soluciones Integrales">
@@ -68,7 +68,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link btn btn-minerva-2 mx-3 my-2" href="#contact-form">Valor Añadido</a>
+                            <a class="nav-link btn btn-minerva-2 mx-3 my-2" href="#contact-form">Contacto</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link btn btn-minerva mx-3 my-2" href="#servicios">Servicios</a>
@@ -134,15 +134,15 @@
                                     <input type="email" class="form-control" id="email"
                                         placeholder="tucorreo@ejemplo.com" required>
                                 </div>
-                                
+
                                 <div class="mb-3">
                                     <label for="phone" class="form-label">Teléfono</label>
-                                    <input type="tel" class="form-control" id="phone" placeholder="+34 600 000 000" inputmode="tel" autocomplete="tel"
-                                        required>
+                                    <input type="tel" class="form-control" id="phone" placeholder="600 000 000"
+                                        inputmode="tel" autocomplete="tel" required>
                                 </div>
-                                
+
                                 <div class="mb-3">
-                                    <label for="message"class="form-label">Mensaje</label>
+                                    <label for="message" class="form-label">Mensaje</label>
                                     <textarea class="form-control" id="message" rows="4"
                                         placeholder="Escribe tu mensaje" required></textarea>
                                 </div>
@@ -269,6 +269,64 @@
                                     <li>Ascensores y plataformas</li>
                                     <li>Espacios exteriores</li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Nuestros tipos de reformas</h2>
+                <p class="text-center text-muted mb-5">
+                    Cada reforma es única. Adaptamos nuestros servicios a las necesidades de cada cliente.
+                </p>
+
+                <div class="row g-4">
+
+                    <!-- Reforma 1 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="assets/img/minervacocinamobile.webp" class="card-img-top" alt="Reforma Premium">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Reforma Premium</h5>
+                                <hr class="mx-auto barra-amarilla">
+                                <p class="card-text mt-3">
+                                    Solución económica y eficiente para mejorar el aspecto y funcionalidad de tu
+                                    vivienda sin una inversión significativa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reforma 2 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="assets/img/minervacocinamobile.webp" class="card-img-top" alt="Reforma Premium Mix">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Reforma Premium Mix</h5>
+                                <hr class="mx-auto barra-amarilla">
+                                <p class="card-text mt-3">
+                                    Renovación profunda de la vivienda para clientes exigentes, manteniendo un
+                                    equilibrio entre calidad y coste.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reforma 3 -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 shadow-sm">
+                            <img src="assets/img/minervacocinamobile.webp" class="card-img-top" alt="Reforma Premium Súper">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Reforma Premium Súper</h5>
+                                <hr class="mx-auto barra-amarilla">
+                                <p class="card-text mt-3">
+                                    Transformación completa de la vivienda con acabados de alta calidad y diseño
+                                    moderno.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -536,48 +594,34 @@
 
     <footer class="bg-azul text-center">
         <div class="container p-1">
-            <p class="mb-3 text-white">Síguenos en nuestras redes sociales:</p>
+            <address class="text-white small m-2">
 
-            <div class="d-flex justify-content-center gap-3">
+                <p class="mb-2">
+                    <strong>Dirección:</strong><br>
+                    Calle Cañón del Río Lobos 35, Oficina 7<br>
+                    Polígono El Montalvo II<br>
+                    37008 Salamanca
+                </p>
 
-                <!-- Facebook -->
-                <a href="https://facebook.com" target="_blank" rel="noopener" class="text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M22.675 0h-21.35C.595 0 0 .593 0 1.326v21.348C0 23.407.595 24 1.325 24H12.82V14.706h-3.38v-3.625h3.38V8.413c0-3.34 2.036-5.157 5.005-5.157 1.425 0 2.65.106 3.005.154v3.486l-2.063.001c-1.617 0-1.93.769-1.93 1.896v2.487h3.86l-.503 3.625h-3.356V24h6.582C23.405 24 24 23.407 24 22.674V1.326C24 .593 23.405 0 22.675 0z" />
-                    </svg>
-                </a>
+                <p class="mb-2">
+                    <strong>Email:</strong><br>
+                    <a href="mailto:administracion@minervasl.es" class="text-white text-decoration-none">
+                        administracion@minervasl.es
+                    </a><br>
+                    <a href="mailto:proyectos@minervasl.es" class="text-white text-decoration-none">
+                        proyectos@minervasl.es
+                    </a>
+                </p>
 
-                <!-- Twitter -->
-                <a href="https://twitter.com" target="_blank" rel="noopener" class="text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M24 4.557a9.83 9.83 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.918 4.918 0 0 0-8.384 4.482A13.95 13.95 0 0 1 1.671 3.149a4.917 4.917 0 0 0 1.523 6.574 4.902 4.902 0 0 1-2.229-.616c-.054 2.28 1.581 4.415 3.949 4.89a4.935 4.935 0 0 1-2.224.084 4.923 4.923 0 0 0 4.6 3.417A9.867 9.867 0 0 1 0 19.54a13.94 13.94 0 0 0 7.548 2.212c9.056 0 14.01-7.496 14.01-13.986 0-.21-.004-.423-.014-.634A10.012 10.012 0 0 0 24 4.557z" />
-                    </svg>
-                </a>
+                <p class="mb-0">
+                    <strong>Teléfono:</strong><br>
+                    <a href="tel:+34623311781" class="text-white text-decoration-none">
+                        623 31 17 81
+                    </a>
+                </p>
 
-                <!-- Instagram -->
-                <a href="https://instagram.com" target="_blank" rel="noopener" class="text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="mdi-instagram" width="24" height="24"
-                        viewBox="0 0 24 24" fill="currentColor">
-                        <path
-                            d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
-                    </svg>
-                </a>
+            </address>
 
-
-                <!-- LinkedIn -->
-                <a href="https://linkedin.com" target="_blank" rel="noopener" class="text-white">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M22.23 0H1.77C.792 0 0 .774 0 1.728v20.543C0 23.226.792 24 1.77 24h20.46c.978 0 1.77-.774 1.77-1.728V1.728C24 .774 23.208 0 22.23 0zM7.08 20.452H3.542V9h3.538v11.452zM5.31 7.603a2.047 2.047 0 1 1 0-4.094 2.047 2.047 0 0 1 0 4.094zm15.142 12.849h-3.538v-5.568c0-1.328-.026-3.036-1.849-3.036-1.849 0-2.131 1.444-2.131 2.939v5.665h-3.538V9h3.396v1.561h.049c.474-.897 1.633-1.846 3.36-1.846 3.593 0 4.256 2.366 4.256 5.439v6.798z" />
-                    </svg>
-                </a>
-
-            </div>
             <div class="text-center text-white p-3">
                 <p><span class="fw-bold">© 2026 Copyright:</span> MINERVA SOLUCIONES INTEGRALES SL</p>
             </div>
