@@ -279,61 +279,150 @@
 
         <section class="py-5 bg-light">
             <div class="container">
-                <h2 class="text-center mb-4">Nuestros tipos de reformas</h2>
+
+                <h2 class="text-center mb-4">Reformas Integrales Minerva</h2>
                 <p class="text-center text-muted mb-5">
-                    Cada reforma es única. Adaptamos nuestros servicios a las necesidades de cada cliente.
+                    En MINERVA Soluciones Integrales transformamos viviendas con un método claro:
+                    estudio previo, planificación técnica, ejecución coordinada y entrega cuidada al detalle.
                 </p>
 
                 <div class="row g-4">
 
-                    <!-- Reforma 1 -->
+                    <!-- ESSENTIAL -->
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="assets/img/minervacocinamobile.webp" class="card-img-top" alt="Reforma Premium">
-                            <div class="card-body text-center">
-                                <h3 class="card-title">Reforma Premium</h3>
-                                <hr class="mx-auto barra-amarilla">
+                            <picture>
+                                <source srcset="assets/img/esencialmobile.webp" media="(max-width: 767.98px)">
+                                <img src="assets/img/esencial.webp" class="img-fluid rounded" alt="reforma esencial"
+                                    width="512" height="350">
+                            </picture>
+
+                            <div class="card-body text-center d-flex flex-column">
+                                <h3 class="card-title">Minerva Essential</h3>
                                 <p class="card-text mt-3">
-                                    Solución económica y eficiente para mejorar el aspecto y funcionalidad de tu
-                                    vivienda sin una inversión significativa.
+                                    Actualización de cocina y baño, renovación de acabados y mejora de instalaciones
+                                    básicas.
                                 </p>
+
+                                <button class="btn btn-minerva mt-auto" data-bs-toggle="collapse"
+                                    data-bs-target="#essential">
+                                    Descubrir más
+                                </button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Reforma 2 -->
+                    <!-- ADVANCE -->
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="assets/img/minervacocinamobile.webp" class="card-img-top"
-                                alt="Reforma Premium Mix">
-                            <div class="card-body text-center">
-                                <h3 class="card-title">Reforma Premium Mix</h3>
-                                <hr class="mx-auto barra-amarilla">
+                            <picture>
+                                <source srcset="assets/img/advance.webp" media="(max-width: 767.98px)">
+                                <img src="assets/img/advancemobile.webp" class="img-fluid rounded" alt="reforma avanzada de tejado"
+                                    width="512" height="350">
+                            </picture>
+
+                            <div class="card-body text-center d-flex flex-column">
+                                <h3 class="card-title">Minerva Advance</h3>
                                 <p class="card-text mt-3">
-                                    Renovación profunda de la vivienda para clientes exigentes, manteniendo un
-                                    equilibrio entre calidad y coste.
+                                    Reforma completa con renovación total de instalaciones y mejora energética.
                                 </p>
+
+                                <button class="btn btn-minerva mt-auto" data-bs-toggle="collapse"
+                                    data-bs-target="#advance">
+                                    Descubrir más
+                                </button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Reforma 3 -->
+                    <!-- PREMIUM -->
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card h-100 shadow-sm">
-                            <img src="assets/img/minervacocinamobile.webp" class="card-img-top"
-                                alt="Reforma Premium Súper">
-                            <div class="card-body text-center">
-                                <h3 class="card-title">Reforma Premium Súper</h3>
-                                <hr class="mx-auto barra-amarilla">
+                            <picture>
+                                <source srcset="assets/img/premiummobile.webp" media="(max-width: 767.98px)">
+                                <img src="assets/img/premium.webp" class="img-fluid rounded" alt="reforma premium de piscina"
+                                    width="512" height="350">
+                            </picture>
+
+                            <div class="card-body text-center d-flex flex-column">
+                                <h3 class="card-title">Minerva Premium</h3>
                                 <p class="card-text mt-3">
-                                    Transformación completa de la vivienda con acabados de alta calidad y diseño
-                                    moderno.
+                                    Transformación total con rediseño integral, instalaciones nuevas y acabados de alto
+                                    nivel.
                                 </p>
+
+                                <button class="btn btn-minerva mt-auto" data-bs-toggle="collapse"
+                                    data-bs-target="#premium">
+                                    Descubrir más
+                                </button>
                             </div>
                         </div>
                     </div>
 
                 </div>
+
+                <!-- CONTENEDOR ACORDEÓN -->
+                <div id="reformasAccordion">
+
+                    <!-- ESSENTIAL -->
+                    <div class="collapse mt-5" id="essential" data-bs-parent="#reformasAccordion">
+                        <div class="card card-body">
+                            <h4>Reforma Minerva Essential</h4>
+                            <ul class="mt-3">
+                                <li>Demoliciones controladas</li>
+                                <li>Albañilería y preparación de soportes</li>
+                                <li>Carpintería interior básica</li>
+                                <li>Techos de pladur</li>
+                                <li>Pintura en zonas intervenidas</li>
+                                <li>Actualización eléctrica parcial</li>
+                                <li>Renovación de fontanería</li>
+                                <li>Instalación de sanitarios</li>
+                                <li>Ajustes de calefacción</li>
+                                <li>Carpinterías exteriores según proyecto</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- ADVANCE -->
+                    <div class="collapse mt-4" id="advance" data-bs-parent="#reformasAccordion">
+                        <div class="card card-body">
+                            <h4>Reforma Minerva Advance</h4>
+                            <ul class="mt-3">
+                                <li>Demoliciones integrales</li>
+                                <li>Redistribuciones ligeras</li>
+                                <li>Carpintería moderna</li>
+                                <li>Techos técnicos</li>
+                                <li>Pintura integral</li>
+                                <li>Instalación eléctrica completa</li>
+                                <li>Fontanería integral</li>
+                                <li>Sanitarios de gama superior</li>
+                                <li>Renovación calefacción</li>
+                                <li>Ventanas PVC</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- PREMIUM -->
+                    <div class="collapse mt-4" id="premium" data-bs-parent="#reformasAccordion">
+                        <div class="card card-body">
+                            <h4>Reforma Minerva Premium</h4>
+                            <ul class="mt-3">
+                                <li>Demoliciones totales</li>
+                                <li>Redistribución integral</li>
+                                <li>Carpintería personalizada</li>
+                                <li>Techos avanzados</li>
+                                <li>Acabados premium</li>
+                                <li>Instalación eléctrica avanzada</li>
+                                <li>Fontanería nueva</li>
+                                <li>Sanitarios alta gama</li>
+                                <li>Climatización de alto rendimiento</li>
+                                <li>Carpinterías exteriores altas prestaciones</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
