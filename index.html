@@ -54,7 +54,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm bg-light py-1">
+        <nav class="navbar navbar-expand-md bg-light py-1">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/icons/icon.png" width="83" height="75" alt="MINERVA Soluciones Integrales">
@@ -115,28 +115,35 @@
                             <h2 class="mb-2 text-center">Formulario de contacto</h2>
                             <p class="mb-3 text-center">Nos pondremos en contacto contigo lo antes posible</p>
 
-                            <form id="contactForm">
+                            <form id="contactForm" action="https://formsubmit.co/proyectos@minervasl.es" method="POST">
+
+                                <input type="hidden" name="_cc" value="administracion@minervasl.es,saulmaji@gmail.com">
+
+                                <input type="hidden" name="_subject" value="Nuevo contacto desde la web">
+
+                                <input type="hidden" name="_template" value="table">
+
+                                <input type="hidden" name="_captcha" value="false">
+
+                                <input type="hidden" name="_next" value="https://minervasl.es/#equipo">
 
                                 <div class="mb-3">
-                                    <!--<label for="name" class="form-label">Nombre</label>-->
-                                    <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                                    <input type="text" class="form-control" name="Nombre" placeholder="Tu nombre"
+                                        required>
                                 </div>
 
                                 <div class="mb-3">
-                                    <!--<label for="email" class="form-label">Correo electrónico</label>-->
-                                    <input type="email" class="form-control" id="email"
+                                    <input type="email" class="form-control" name="Email"
                                         placeholder="tucorreo@ejemplo.com" required>
                                 </div>
 
                                 <div class="mb-3">
-                                    <!--<label for="phone" class="form-label">Teléfono</label>-->
-                                    <input type="tel" class="form-control" id="phone" placeholder="600 000 000"
+                                    <input type="tel" class="form-control" name="Teléfono" placeholder="600 000 000"
                                         inputmode="tel" autocomplete="tel" required>
                                 </div>
 
                                 <div class="mb-3">
-                                    <!--<label for="message" class="form-label">Mensaje</label>-->
-                                    <textarea class="form-control" id="message" rows="4"
+                                    <textarea class="form-control" name="Mensaje" rows="4"
                                         placeholder="Escribe tu mensaje" required></textarea>
                                 </div>
 
