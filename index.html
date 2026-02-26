@@ -41,8 +41,8 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" media="print" onload="this.media='all'">
 
     <!-- Scripts -->
     <script src="assets/bootstrap/js/bootstrap.bundle.min.js" defer></script>
@@ -57,7 +57,7 @@
         <nav class="navbar navbar-expand-md bg-light py-1">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/img/icons/icon.png" width="83" height="75" alt="MINERVA Soluciones Integrales">
+                    <img src="assets/img/icons/icon.png" width="83" height="75" alt="Icono MINERVA Soluciones Integrales">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -90,10 +90,7 @@
         <section id="contact-form" class="contacto">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-8 p-5 ">
-
-                    </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-6 ms-lg-auto">
                         <div class="p-4 p-md-3 bg-white">
 
                             <h2 class="mb-2 text-center">Formulario de contacto</h2>
@@ -109,11 +106,12 @@
 
                                 <input type="hidden" name="_captcha" value="false">
 
+                                <input type="text" name="_honey" style="display:none">
+
                                 <input type="hidden" name="_next" value="https://minervasl.es/#equipo">
 
                                 <div class="mb-3">
-                                    <input type="text" class="form-control" name="Nombre" placeholder="Nombre"
-                                        required>
+                                    <input type="text" class="form-control" name="Nombre" placeholder="Nombre" required>
                                 </div>
 
                                 <div class="mb-3">
@@ -146,40 +144,40 @@
         </section>
 
         <section class="py-5 bg-light" id="minerva">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row align-items-center">
 
                     <!-- Texto izquierda -->
-                    <div class="col-12 col-md-6">
-                        <h1>MINERVA Soluciones Integrales S.L.</h1>
-                        <p>
-                            Somos una empresa especializada en rehabilitación de edificios, obra civil y reformas
-                            integrales.
-                            Ofrecemos un servicio técnico completo, gestionando cada proyecto de principio a fin:
-                            estudio previo,
-                            propuesta técnica, licencias y ejecución, garantizando plazos, presupuesto y
-                            cumplimiento normativo.
-                        </p>
-                        <p>
-                            Nuestra visión global nos permite anticipar riesgos, optimizar costes y coordinar todos
-                            los oficios para asegurar
-                            resultados duraderos. Trabajamos con comunidades, administradores, empresas, entidades
-                            públicas y particulares que buscan un partner
-                            fiable capaz de encargarse de todos los detalles de la obra para que ellos solo tengan
-                            que disfrutar del resultado.
-                        </p>
+                    <div class="col-12 col-lg-6 px-4 px-lg-5">
+                        <div class="container">
+                            <h1>MINERVA Soluciones Integrales S.L.</h1>
+                            <p>
+                                Somos una empresa especializada en rehabilitación de edificios, obra civil y reformas
+                                integrales. Ofrecemos un servicio técnico completo, gestionando cada proyecto de
+                                principio a fin:
+                                estudio previo, propuesta técnica, licencias y ejecución, garantizando plazos,
+                                presupuesto y
+                                cumplimiento normativo.
+                            </p>
+                            <p>
+                                Nuestra visión global nos permite anticipar riesgos, optimizar costes y coordinar todos
+                                los oficios para asegurar resultados duraderos. Trabajamos con comunidades,
+                                administradores,
+                                empresas, entidades públicas y particulares que buscan un partner fiable capaz de
+                                encargarse
+                                de todos los detalles de la obra para que ellos solo tengan que disfrutar del resultado.
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Imagen derecha -->
-                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="col-12 col-lg-6 px-0 mt-3 mt-lg-0">
                         <picture>
                             <source srcset="assets/img/portada_mobile.webp" media="(max-width: 767.98px)">
-                            <img src="assets/img/portada_desktop.webp" class="img-fluid rounded" alt="Portada"
-                                width="512" height="350">
+                            <img src="assets/img/portada_desktop.webp" class="img-fluid w-100" alt="Foto de obra de portada" width="512"
+                                height="350" loading="lazy">
                         </picture>
                     </div>
-
-
 
                 </div>
             </div>
@@ -277,40 +275,40 @@
             </div>
         </section>
         <section class="py-5 bg-light" id="equipo">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row align-items-center">
 
                     <!-- Imagen izquierda -->
-                    <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <div class="col-12 col-lg-6 px-0 mb-3 mb-lg-0 order-lg-1">
                         <picture>
-                            <source srcset="assets/img/portada_mobile.webp" media="(max-width: 767.98px)">
-                            <img src="assets/img/portada_desktop.webp" class="img-fluid rounded" alt="Portada"
-                                width="512" height="350">
+                            <source srcset="assets/img/equipoimagenmobile.webp" media="(max-width: 767.98px)">
+                            <img src="assets/img/equipoimagen.webp" class="img-fluid w-100" alt="Equipo Minerva"
+                                width="512" height="350" loading="lazy">
                         </picture>
                     </div>
 
                     <!-- Texto derecha -->
-                    <div class="col-12 col-md-6">
-                        <h2>El equipo</h2>
-                        <p>
-                            En MINERVA SOLUCIONES INTEGRALES S.L. contamos con un equipo técnico especializado y
-                            personal de obra con amplia experiencia, lo que nos permite abordar cada proyecto con
-                            una visión completa, desde el análisis y la diagnosis hasta la ejecución en obra.
-                        </p>
-                        <p>
-                            Asignamos un responsable técnico que acompaña al cliente durante todo el proceso,
-                            garantizando una planificación rigurosa, una comunicación constante y un control
-                            exhaustivo de calidad y seguridad. Este modelo de trabajo nos permite ofrecer un
-                            servicio serio, transparente y muy valorado por comunidades, administradores y
-                            responsables de mantenimiento.
-                        </p>
+                    <div class="col-12 col-lg-6 px-4 px-lg-5 order-lg-2">
+                        <div class="container">
+                            <h2>El equipo</h2>
+                            <p>
+                                En MINERVA SOLUCIONES INTEGRALES S.L. contamos con un equipo técnico especializado y
+                                personal de obra con amplia experiencia, lo que nos permite abordar cada proyecto con
+                                una visión completa, desde el análisis y la diagnosis hasta la ejecución en obra.
+                            </p>
+                            <p>
+                                Asignamos un responsable técnico que acompaña al cliente durante todo el proceso,
+                                garantizando una planificación rigurosa, una comunicación constante y un control
+                                exhaustivo de calidad y seguridad. Este modelo de trabajo nos permite ofrecer un
+                                servicio serio, transparente y muy valorado por comunidades, administradores y
+                                responsables de mantenimiento.
+                            </p>
+                        </div>
                     </div>
 
                 </div>
             </div>
         </section>
-
-
 
         <section class="py-5 bg-light">
             <div class="container">
@@ -321,175 +319,178 @@
                     estudio previo, planificación técnica, ejecución coordinada y entrega cuidada al detalle.
                 </p>
 
-                <div class="row g-4">
+                <div class="row g-4" id="reformasCards">
 
                     <!-- ESSENTIAL -->
                     <div class="col-12 col-md-4">
-                        <div class="card h-100 shadow-sm">
+                        <div class="card shadow-sm">
+
                             <picture>
                                 <source srcset="assets/img/esencialmobile.webp" media="(max-width: 767.98px)">
-                                <img src="assets/img/esencial.webp" class="img-fluid rounded" alt="reforma esencial"
-                                    width="512" height="350">
+                                <img src="assets/img/esencial.webp" class="img-fluid rounded-top" alt="reforma esencial"
+                                    width="512" height="350" loading="lazy">
                             </picture>
 
                             <div class="card-body text-center d-flex flex-column">
                                 <h3 class="card-title">Minerva Essential</h3>
+
                                 <p class="card-text mt-3">
                                     Actualización de cocina y baño, renovación de acabados y mejora de instalaciones
                                     básicas.
                                 </p>
 
                                 <button class="btn btn-minerva mt-auto" data-bs-toggle="collapse"
-                                    data-bs-target="#essential">
+                                    data-bs-target="#essentialInfo" aria-expanded="false">
                                     Descubrir más
                                 </button>
                             </div>
+
+                            <div class="collapse" id="essentialInfo">
+                                <div class="card-footer bg-white">
+                                    <h5 class="mb-3">Incluye:</h5>
+                                    <ul class="mb-0 small text-start">
+                                        <li>Demoliciones controladas</li>
+                                        <li>Albañilería y preparación de soportes</li>
+                                        <li>Carpintería interior básica</li>
+                                        <li>Techos de pladur</li>
+                                        <li>Pintura en zonas intervenidas</li>
+                                        <li>Actualización eléctrica parcial</li>
+                                        <li>Renovación de fontanería</li>
+                                        <li>Instalación de sanitarios</li>
+                                        <li>Ajustes de calefacción</li>
+                                        <li>Carpinterías exteriores según proyecto</li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
                     <!-- ADVANCE -->
                     <div class="col-12 col-md-4">
-                        <div class="card h-100 shadow-sm">
+                        <div class="card shadow-sm">
+
                             <picture>
-                                <source srcset="assets/img/advance.webp" media="(max-width: 767.98px)">
-                                <img src="assets/img/advancemobile.webp" class="img-fluid rounded"
-                                    alt="reforma avanzada de tejado" width="512" height="350">
+                                <source srcset="assets/img/advancemobile.webp" media="(max-width: 767.98px)">
+                                <img src="assets/img/advance.webp" class="img-fluid rounded-top" alt="reforma avanzada"
+                                    width="512" height="350" loading="lazy">
                             </picture>
 
                             <div class="card-body text-center d-flex flex-column">
                                 <h3 class="card-title">Minerva Advance</h3>
+
                                 <p class="card-text mt-3">
                                     Reforma completa con renovación total de instalaciones y mejora energética.
                                 </p>
 
                                 <button class="btn btn-minerva mt-auto" data-bs-toggle="collapse"
-                                    data-bs-target="#advance">
+                                    data-bs-target="#advanceInfo" aria-expanded="false">
                                     Descubrir más
                                 </button>
                             </div>
+
+                            <div class="collapse" id="advanceInfo">
+                                <div class="card-footer bg-white">
+                                    <h5 class="mb-3">Incluye:</h5>
+                                    <ul class="mb-0 small text-start">
+                                        <li>Demoliciones integrales</li>
+                                        <li>Redistribuciones ligeras</li>
+                                        <li>Carpintería moderna</li>
+                                        <li>Techos técnicos</li>
+                                        <li>Pintura integral</li>
+                                        <li>Instalación eléctrica completa</li>
+                                        <li>Fontanería integral</li>
+                                        <li>Sanitarios de gama superior</li>
+                                        <li>Renovación de calefacción</li>
+                                        <li>Ventanas PVC</li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
 
                     <!-- PREMIUM -->
                     <div class="col-12 col-md-4">
-                        <div class="card h-100 shadow-sm">
+                        <div class="card shadow-sm">
+
                             <picture>
                                 <source srcset="assets/img/premiummobile.webp" media="(max-width: 767.98px)">
-                                <img src="assets/img/premium.webp" class="img-fluid rounded"
-                                    alt="reforma premium de piscina" width="512" height="350">
+                                <img src="assets/img/premium.webp" class="img-fluid rounded-top" alt="reforma premium"
+                                    width="512" height="350" loading="lazy">
                             </picture>
 
                             <div class="card-body text-center d-flex flex-column">
                                 <h3 class="card-title">Minerva Premium</h3>
+
                                 <p class="card-text mt-3">
                                     Transformación total con rediseño integral, instalaciones nuevas y acabados de alto
                                     nivel.
                                 </p>
 
                                 <button class="btn btn-minerva mt-auto" data-bs-toggle="collapse"
-                                    data-bs-target="#premium">
+                                    data-bs-target="#premiumInfo" aria-expanded="false">
                                     Descubrir más
                                 </button>
                             </div>
+
+                            <div class="collapse" id="premiumInfo">
+                                <div class="card-footer bg-white">
+                                    <h5 class="mb-3">Incluye:</h5>
+                                    <ul class="mb-0 small text-start">
+                                        <li>Demoliciones totales</li>
+                                        <li>Redistribución integral</li>
+                                        <li>Carpintería personalizada</li>
+                                        <li>Techos avanzados</li>
+                                        <li>Acabados premium</li>
+                                        <li>Instalación eléctrica avanzada</li>
+                                        <li>Fontanería nueva</li>
+                                        <li>Sanitarios de alta gama</li>
+                                        <li>Climatización de alto rendimiento</li>
+                                        <li>Carpinterías exteriores de altas prestaciones</li>
+                                    </ul>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
                 </div>
-
-                <!-- CONTENEDOR ACORDEÓN -->
-                <div id="reformasAccordion">
-
-                    <!-- ESSENTIAL -->
-                    <div class="collapse mt-5" id="essential" data-bs-parent="#reformasAccordion">
-                        <div class="card card-body">
-                            <h4>Reforma Minerva Essential</h4>
-                            <ul class="mt-3">
-                                <li>Demoliciones controladas</li>
-                                <li>Albañilería y preparación de soportes</li>
-                                <li>Carpintería interior básica</li>
-                                <li>Techos de pladur</li>
-                                <li>Pintura en zonas intervenidas</li>
-                                <li>Actualización eléctrica parcial</li>
-                                <li>Renovación de fontanería</li>
-                                <li>Instalación de sanitarios</li>
-                                <li>Ajustes de calefacción</li>
-                                <li>Carpinterías exteriores según proyecto</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- ADVANCE -->
-                    <div class="collapse mt-4" id="advance" data-bs-parent="#reformasAccordion">
-                        <div class="card card-body">
-                            <h4>Reforma Minerva Advance</h4>
-                            <ul class="mt-3">
-                                <li>Demoliciones integrales</li>
-                                <li>Redistribuciones ligeras</li>
-                                <li>Carpintería moderna</li>
-                                <li>Techos técnicos</li>
-                                <li>Pintura integral</li>
-                                <li>Instalación eléctrica completa</li>
-                                <li>Fontanería integral</li>
-                                <li>Sanitarios de gama superior</li>
-                                <li>Renovación calefacción</li>
-                                <li>Ventanas PVC</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- PREMIUM -->
-                    <div class="collapse mt-4" id="premium" data-bs-parent="#reformasAccordion">
-                        <div class="card card-body">
-                            <h4>Reforma Minerva Premium</h4>
-                            <ul class="mt-3">
-                                <li>Demoliciones totales</li>
-                                <li>Redistribución integral</li>
-                                <li>Carpintería personalizada</li>
-                                <li>Techos avanzados</li>
-                                <li>Acabados premium</li>
-                                <li>Instalación eléctrica avanzada</li>
-                                <li>Fontanería nueva</li>
-                                <li>Sanitarios alta gama</li>
-                                <li>Climatización de alto rendimiento</li>
-                                <li>Carpinterías exteriores altas prestaciones</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
             </div>
         </section>
 
-
-        <section class="py-5">
-            <div class="container">
+        <section class="py-5" id="proyecto">
+            <div class="container-fluid">
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+
+                    <!-- Imagen derecha en desktop / arriba en mobile -->
+                    <div class="col-12 col-lg-6 px-0 mb-3 mb-lg-0 order-lg-2">
                         <picture>
                             <source srcset="assets/img/minervacocinamobile.webp" media="(max-width: 767.98px)">
-                            <img src="assets/img/minervacocina.webp" class="img-fluid rounded" alt="Portada" width="512"
-                                height="350">
+                            <img src="assets/img/minervacocina.webp" class="img-fluid w-100" alt="Tu proyecto Minerva"
+                                width="512" height="350" loading="lazy">
                         </picture>
                     </div>
-                    <div class="col-12 col-md-6 order-2 order-md-1">
-                        <h2>Tu proyecto, nuestra prioridad</h2>
-                        <p>
-                            Reformas y rehabilitación con un servicio integral, coordinado por un equipo técnico de
-                            arquitectura e ingeniería.
-                        </p>
+
+                    <!-- Texto izquierda en desktop / abajo en mobile -->
+                    <div class="col-12 col-lg-6 px-4 px-lg-5 order-lg-1">
+                        <div class="container">
+                            <h2>Tu proyecto, nuestra prioridad</h2>
+                            <p>
+                                Reformas y rehabilitación con un servicio integral, coordinado por un equipo técnico de
+                                arquitectura e ingeniería.
+                            </p>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <section class="py-5 bg-light">
             <div class="container">
-
                 <h2 class="mb-4">Preguntas frecuentes</h2>
 
                 <div class="accordion" id="faqAccordion">
-
                     <!-- FAQ 1 (abierta por defecto) -->
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
@@ -578,7 +579,6 @@
             </div>
         </section>
 
-
         <section class="py-5" id="clientes">
             <div class="container">
 
@@ -590,7 +590,7 @@
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide position-relative">
-                            <img src="assets/img/clientesminervaayuntamiento.webp" class="img-fluid"
+                            <img src="assets/img/clientesminervaayuntamiento.webp" class="img-fluid w-100"
                                 alt="Imagen de ayuntamiento" loading="lazy" width="390" height="270">
                             <div
                                 class="slide-text position-absolute top-50 start-50 translate-middle text-white text-center">
@@ -599,7 +599,7 @@
                         </div>
 
                         <div class="swiper-slide position-relative">
-                            <img src="assets/img/clientesminervapropietarios.webp" class="img-fluid"
+                            <img src="assets/img/clientesminervapropietarios.webp" class="img-fluid w-100"
                                 alt="Imagen propietarios" loading="lazy" width="390" height="270">
                             <div
                                 class="slide-text position-absolute top-50 start-50 translate-middle text-white text-center">
@@ -608,7 +608,7 @@
                         </div>
 
                         <div class="swiper-slide position-relative">
-                            <img src="assets/img/clientesminervaempresas.webp" class="img-fluid" alt="Imagen empresa"
+                            <img src="assets/img/clientesminervaempresas.webp" class="img-fluid w-100" alt="Imagen empresa"
                                 loading="lazy" width="390" height="270">
                             <div
                                 class="slide-text position-absolute top-50 start-50 translate-middle text-white text-center">
@@ -617,7 +617,7 @@
                         </div>
 
                         <div class="swiper-slide position-relative">
-                            <img src="assets/img/clientesminervaparticulares.webp" class="img-fluid"
+                            <img src="assets/img/clientesminervaparticulares.webp" class="img-fluid w-100"
                                 alt="Imagen particulares" loading="lazy" width="390" height="270">
                             <div
                                 class="slide-text position-absolute top-50 start-50 translate-middle text-white text-center">
@@ -627,7 +627,6 @@
 
                     </div>
                 </div>
-
             </div>
         </section>
 
@@ -734,8 +733,6 @@
                 </div>
             </div>
         </section>
-
-
     </main>
 
     <footer class="bg-azul text-white py-3">
